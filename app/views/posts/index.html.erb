@@ -23,8 +23,14 @@
         <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } \%\></td> %>
       </tr>
     <% end %>
-    
-        <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+
+      <% if user_signed_in? %>
+          <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+      <%else %>
+          <%= link_to "Sign in", new_post_path %>
+      <%end %>
+        
+        
   </tbody>
 </table>
 
