@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-   before_action :authenticate_user!, except: [:new, :create] 
+   before_action :authenticate_user!, except: [:index] 
    def new
       @post = Post.new
    end
@@ -10,11 +10,11 @@ class PostsController < ApplicationController
 
    def create
     @post = Post.new(post_params)
-   #  @post.user_id = current_user.id
+    @post.user_id = current_user.id
     
 
     if @post.save
-      @posts = Post.all
+      @post = Post.all
       render :index
     else
       render :new
