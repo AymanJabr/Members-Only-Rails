@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# rubocop:disable Style/FrozenStringLiteralComment
 # rubocop:disable Layout/LineLength
 # frozen_string_literal: true
 
@@ -16,4 +15,3 @@ Dir.chdir(APP_ROOT) do
   end
 end
 # rubocop:enable Layout/LineLength
-# rubocop:enable Style/FrozenStringLiteralComment
