@@ -2,7 +2,8 @@
  This project consist of building a twitter-like page, where users can 
  sign_in and make a post.
 
-![Screenshot-of-live-demo](./app/assets/images/screenshot1.png)
+![Screenshot1](./app/assets/images/screenshot.JPG)
+![Screenshot1](./app/assets/images/screenshot2.JPG)
 ## Instructions
 1. Download a clone locally git clone https://https://github.com/AymanJabr/Members-Only-Rails
 2. Enter the project folder cd members-only
