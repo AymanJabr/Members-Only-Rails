@@ -1,7 +1,6 @@
 # rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
-# rubocop:disable Style/Documentation
 class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
@@ -16,5 +15,4 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit(:account_update, keys: %i[name email password current_password])
   end
 end
-# rubocop:enable Style/Documentation
 # rubocop:enable Style/FrozenStringLiteralComment

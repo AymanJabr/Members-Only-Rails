@@ -1,8 +1,6 @@
 # rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
-# rubocop:disable Style/Documentation
-
 class PostsController < ApplicationController
   before_action :authenticate_user!, except: [:index]
   def new
@@ -31,5 +29,4 @@ class PostsController < ApplicationController
     params.require(:post).permit(:body, :user_id)
   end
 end
-# rubocop:enable Style/Documentation
 # rubocop:enable Style/FrozenStringLiteralComment
