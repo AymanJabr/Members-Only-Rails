@@ -1,24 +1,24 @@
-# README
+# Members-only Project
+ This project consist of building a twitter-like page, where users can 
+ sign_in and make a post.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Screenshot-of-live-demo](./app/assets/images/screenshot1.png)
+## Instructions
+1. Download a clone locally git clone https://https://github.com/AymanJabr/Members-Only-Rails
+2. Enter the project folder cd members-only
+3. Download the proper branch git checkout members-only
+4. Add the neccessary gems required in the Gemfile
+5. Install the necessary gems by using the command 'bundle install'
+6. Migrate the database using the command 'rake db:migrate'
+7. If sign_in, you can create a post
+## Authors :bust_in_silhouette:
+### Frederick Mih
+\_[Github](https://github.com/FrederickMih)
+\_[LinkedIn](https://www.linkedin.com/in/frederick-mih/)
+### Ayman Jabr
+\_[Github](https://github.com/AymanJabr/)
+\_[LinkedIn](https://www.linkedin.com/in/ayman-jabr-3705a4100/)
+## Show your support :star:️:star:️:star:️
+Give a star if you like this project!
+## License :memo:
+This project is [MIT](https://www.mit.edu/~amini/LICENSE.md) licensed.
