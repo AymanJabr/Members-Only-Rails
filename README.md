@@ -7,8 +7,8 @@
 ## Instructions
 1. Download a clone locally git clone https://https://github.com/AymanJabr/Members-Only-Rails
 2. Enter the project folder cd members-only
-3. Download the proper branch git checkout members-only
-4. Add the neccessary gems required in the Gemfile
+3. Enter the proper branch `git checkout feature/members-only`, or `git checkout development`
+4. Add the necessary gems required in the Gemfile
 5. Install the necessary gems by using the command 'bundle install'
 6. Migrate the database using the command 'rake db:migrate'
 7. If sign_in, you can create a post
