@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 # rubocop:disable Layout/LineLength
@@ -312,3 +313,4 @@ Devise.setup do |config|
   # config.sign_in_after_change_password = true
 end
 # rubocop:enable Layout/LineLength
+# rubocop:enable Style/FrozenStringLiteralComment

@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 require 'test_helper'
@@ -7,3 +8,4 @@ class PostControllerTest < ActionDispatch::IntegrationTest
   #   assert true
   # end
 end
+# rubocop:enable Style/FrozenStringLiteralComment

@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 # rubocop:disable Style/Documentation
@@ -47,3 +48,4 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.1]
 end
 # rubocop:enable Style/Documentation
 # rubocop:enable Metrics/MethodLength
+# rubocop:enable Style/FrozenStringLiteralComment

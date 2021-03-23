@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 # Be sure to restart your server when you modify this file.
@@ -14,3 +15,4 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+# rubocop:enable Style/FrozenStringLiteralComment

@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 # This file is auto-generated from the current state of the database. Instead
@@ -34,3 +35,4 @@ ActiveRecord::Schema.define(version: 20_210_322_141_926) do
     t.index ['reset_password_token'], name: 'index_users_on_reset_password_token', unique: true
   end
 end
+# rubocop:enable Style/FrozenStringLiteralComment

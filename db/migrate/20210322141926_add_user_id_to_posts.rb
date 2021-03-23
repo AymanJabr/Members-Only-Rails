@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 # rubocop:disable  Style/Documentation
@@ -8,3 +9,4 @@ class AddUserIdToPosts < ActiveRecord::Migration[6.1]
   end
 end
 # rubocop:enable  Style/Documentation
+# rubocop:enable Style/FrozenStringLiteralComment

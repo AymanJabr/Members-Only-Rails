@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 # Be sure to restart your server when you modify this file.
 
@@ -7,3 +8,4 @@
 #     https: false
 #   )
 # end
+# rubocop:enable Style/FrozenStringLiteralComment
