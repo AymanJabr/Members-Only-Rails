@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 # rubocop:disable Style/Documentation
@@ -31,3 +32,4 @@ class PostsController < ApplicationController
   end
 end
 # rubocop:enable Style/Documentation
+# rubocop:enable Style/FrozenStringLiteralComment

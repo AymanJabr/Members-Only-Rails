@@ -1,3 +1,4 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 module Users
@@ -30,3 +31,4 @@ module Users
     # end
   end
 end
+# rubocop:enable Style/FrozenStringLiteralComment

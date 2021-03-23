@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 
 APP_ROOT = File.expand_path('..', __dir__)
@@ -17,3 +18,4 @@ Dir.chdir(APP_ROOT) do
     exit 1
   end
 end
+# rubocop:enable Style/FrozenStringLiteralComment
