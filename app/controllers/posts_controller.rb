@@ -1,17 +1,16 @@
 class PostsController < ApplicationController
-   before_action :setContext, except: [:new, :create] 
+   before_action :authenticate_user!, except: [:new, :create] 
    def new
       @post = Post.new
    end
 
    def index
-      @post = Post.new 
-      @post.user_id = current_user.id
+      @post = Post.all
    end
 
    def create
     @post = Post.new(post_params)
-    @post.user_id = current_user.id
+   #  @post.user_id = current_user.id
     
 
     if @post.save
