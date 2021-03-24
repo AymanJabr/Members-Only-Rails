@@ -1,3 +1,5 @@
+# rubocop:disable Style/StringLiterals
+# rubocop:disable Layout/EmptyLinesAroundBlockBody
 ActiveRecord::Schema.define(version: 2021_03_23_084323) do
 
   create_table "posts", force: :cascade do |t|
@@ -23,3 +25,5 @@ ActiveRecord::Schema.define(version: 2021_03_23_084323) do
   end
 
 end
+# rubocop:enable Style/StringLiterals
+# rubocop:enable Layout/EmptyLinesAroundBlockBody
