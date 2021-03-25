@@ -36,9 +36,8 @@ end
 # rubocop:enable Layout/EmptyLinesAroundModuleBody
 # rubocop:enable Layout/IndentationWidth
 # rubocop:enable Layout/TrailingWhitespace
-
-# rubocop:disable Style/StringLiterals
-# rubocop:disable Style/HashSyntax
-# rubocop:disable Layout/EndAlignment
-# rubocop:disable Layout/ElseAlignment
-# rubocop:disable Layout/EmptyLines
+# rubocop:enable Style/StringLiterals
+# rubocop:enable Style/HashSyntax
+# rubocop:enable Layout/EndAlignment
+# rubocop:enable Layout/ElseAlignment
+# rubocop:enable Layout/EmptyLines
