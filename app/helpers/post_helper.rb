@@ -1,5 +1,13 @@
 # rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
+# rubocop:disable Layout/EmptyLinesAroundModuleBody
+# rubocop:disable Layout/IndentationWidth
+# rubocop:disable Layout/TrailingWhitespace
+# rubocop:disable Style/StringLiterals
+# rubocop:disable Style/HashSyntax
+# rubocop:disable Layout/EndAlignment
+# rubocop:disable Layout/ElseAlignment
+# rubocop:disable Layout/EmptyLines
 
 module PostHelper
 
@@ -25,3 +33,12 @@ module PostHelper
 
 end
 # rubocop:enable Style/FrozenStringLiteralComment
+# rubocop:enable Layout/EmptyLinesAroundModuleBody
+# rubocop:enable Layout/IndentationWidth
+# rubocop:enable Layout/TrailingWhitespace
+
+# rubocop:disable Style/StringLiterals
+# rubocop:disable Style/HashSyntax
+# rubocop:disable Layout/EndAlignment
+# rubocop:disable Layout/ElseAlignment
+# rubocop:disable Layout/EmptyLines
