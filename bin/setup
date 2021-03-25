@@ -1,5 +1,10 @@
-#!/usr/bin/env ruby.exe
-require "fileutils"
+#!/usr/bin/env ruby
+# rubocop:disable Style/FrozenStringLiteralComment
+# frozen_string_literal: true
+
+e
+
+require 'fileutils'
 
 # path to your application root.
 APP_ROOT = File.expand_path('..', __dir__)
@@ -34,3 +39,4 @@ FileUtils.chdir APP_ROOT do
   puts "\n== Restarting application server =="
   system! 'bin/rails restart'
 end
+# rubocop:enable Style/FrozenStringLiteralComment

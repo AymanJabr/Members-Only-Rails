@@ -1,4 +1,8 @@
-#!/usr/bin/env ruby.exe
-require_relative "../config/boot"
-require "rake"
+#!/usr/bin/env ruby
+# rubocop:disable Style/FrozenStringLiteralComment
+# frozen_string_literal: true
+
+require_relative '../config/boot'
+require 'rake'
 Rake.application.run
+# rubocop:enable Style/FrozenStringLiteralComment
