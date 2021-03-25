@@ -1,6 +1,7 @@
 # rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 # rubocop:disable Layout/EmptyLinesAroundModuleBody
+
 # rubocop:disable Layout/IndentationWidth
 # rubocop:disable Layout/TrailingWhitespace
 # rubocop:disable Style/StringLiterals
@@ -10,7 +11,6 @@
 # rubocop:disable Layout/EmptyLines
 
 module PostHelper
-
     def sign_in_or_out
 
      if user_signed_in? 
