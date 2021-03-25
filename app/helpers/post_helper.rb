@@ -1,7 +1,8 @@
+# rubocop:disable Layout/EmptyLineAfterMagicComment
 # rubocop:disable Style/FrozenStringLiteralComment
 # frozen_string_literal: true
 # rubocop:disable Layout/EmptyLinesAroundModuleBody
-
+# rubocop:disable Layout/EmptyLinesAroundMethodBody
 # rubocop:disable Layout/IndentationWidth
 # rubocop:disable Layout/TrailingWhitespace
 # rubocop:disable Style/StringLiterals
@@ -41,3 +42,5 @@ end
 # rubocop:enable Layout/EndAlignment
 # rubocop:enable Layout/ElseAlignment
 # rubocop:enable Layout/EmptyLines
+# rubocop:enable Layout/EmptyLinesAroundMethodBody
+# rubocop:enable Layout/EmptyLineAfterMagicComment
